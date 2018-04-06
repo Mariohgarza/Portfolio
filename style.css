@@ -2,7 +2,7 @@ body , html {
   height: 100%
 }
 .pic {
-   background-image:url("/Users/mari-0/Desktop/myNewStuff/images/wallme.jpg");
+   background-image:url("/Users/mari-0/Desktop/Portfolio/images/wallme.jpg");
    border-radius: 200px;
   width: 370px;
   height: 370px;
@@ -10,7 +10,7 @@ body , html {
   background-position: center center;
 }
 .pic1 {
-  background-image:url("/Users/mari-0/Desktop/myNewStuff/images/beachme.png");
+  background-image:url("/Users/mari-0/Desktop/Portfolio/images/beachme.png");
   width: 300px;
   height: 300px;
   background-size:cover;
@@ -30,7 +30,7 @@ body , html {
 }
 
 .parallax {
-  background-image:url("/Users/mari-0/Desktop/myNewStuff/images/newheader.jpg");
+  background-image:url("/Users/mari-0/Desktop/Portfolio/images/newheader.jpg");
   width:100%;
     background-attachment:fixed;
     background-position:center;
@@ -73,7 +73,7 @@ body , html {
     margin: 0;
   }
   .parallax2 {
-    background-image:url("/Users/mari-0/Desktop/myNewStuff/images/header.jpg");
+    background-image:url("/Users/mari-0/Desktop/Portfolio/images/header.jpg");
       width: 100%;
       background-attachment:fixed;
       background-position:center;
@@ -111,7 +111,7 @@ body , html {
 
 
    .parallax3 {
-     background-image:url("/Users/mari-0/Desktop/myNewStuff/images/bizcard.jpg");
+     background-image:url("/Users/mari-0/Desktop/Portfolio/images/bizcard.jpg");
        height: 100%;
        background-attachment:fixed;
        background-position:center;
@@ -192,7 +192,7 @@ text-align: center;
 }
 
 .animated {
-            background-image: url("/Users/mari-0/Desktop/myNewStuff/images/wallme.jpg");
+            background-image: url("/Users/mari-0/Desktop/Portfolio/images/wallme.jpg");
             background-repeat: no-repeat;
             background-position: left top;
             padding-top:95px;
@@ -230,7 +230,7 @@ text-align: center;
          }
          /* project */
          .header {
-           background-image: url("/Users/mari-0/Desktop/myNewStuff/images/header.jpg");
+           background-image: url("/Users/mari-0/Desktop/Portfolio/images/header.jpg");
            background-repeat:no-repeat;
            background-size:cover;
            color:white;
