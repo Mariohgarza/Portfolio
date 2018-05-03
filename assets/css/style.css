@@ -2,7 +2,7 @@ body , html {
   height: 100%
 }
 .pic {
-   background:url("/Users/mari-0/Desktop/Portfolio/assets/images/wallme.jpg");
+   background-image:url("../images/wallme.jpg");
    border-radius: 200px;
   width: 370px;
   height: 370px;
@@ -10,7 +10,7 @@ body , html {
   background-position: center center;
 }
 .pic1 {
-  background:url("/Users/mari-0/Desktop/Portfolio/assets/images/beachme.png");
+  background-image:url("../images/beachme.png");
   width: 300px;
   height: 300px;
   background-size:cover;
@@ -30,8 +30,8 @@ body , html {
 }
 
 .parallax {
-  background:url("/Users/mari-0/Desktop/Portfolio/assets/images/newheader.jpg");
-  width:100%;
+  background:url("../images/newheader.jpg");
+  /* width:100%; */
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
@@ -73,7 +73,7 @@ body , html {
     margin: 0;
   }
   .parallax2 {
-    background:url("/Users/mari-0/Desktop/Portfolio/assets/images/header.jpg");
+    background-image:url("../images/header.jpg");
       width: 100%;
       background-attachment:fixed;
       background-position:center;
@@ -111,7 +111,7 @@ body , html {
 
 
    .parallax3 {
-     background:url("/Users/mari-0/Desktop/Portfolio/assets/images/bizcard.jpg");
+     background-image:url("../images/bizcard.jpg");
        height: 100%;
        background-attachment:fixed;
        background-position:center;
@@ -192,7 +192,7 @@ text-align: center;
 }
 
 .animated {
-            background: url('/Users/mari-0/Desktop/Portfolio/assets/images/wallme.jpg');
+            background-image: url('../images/wallme.jpg');
             background-repeat: no-repeat;
             background-position: left top;
             padding-top:95px;
@@ -230,7 +230,7 @@ text-align: center;
          }
          /* project */
          .header {
-           background-image: url("/Users/mari-0/Desktop/Portfolio/assets/images/header.jpg");
+           background-image: url("../images/header.jpg");
            background-repeat:no-repeat;
            background-size:cover;
            color:white;
