@@ -7,7 +7,7 @@ body , html {
   width: 370px;
   height: 370px;
   background-size:cover;
-  background-position: center center;
+  background-position: center;
 }
 .pic1 {
   background-image:url("../images/beachme.png");
@@ -31,7 +31,6 @@ body , html {
 
 .parallax {
   background:url("../images/newheader.jpg");
-  /* width:100%; */
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
@@ -43,28 +42,27 @@ body , html {
   text-align: center;
   color:grey;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom:0px;
   margin:0;
 }
 
 
- .parallax1 {
+ section {
 
-   background-color:grey;
-       /* height:450px; */
+   background: linear-gradient(black, lightblue);
      background-attachment:fixed;
      background-position:center;
      background-repeat:no-repeat;
      background-size:cover;
  }
- .parallax1 h1 {
+ section h1 {
    font-size: 50px;
    font-family:monospace;
    text-align: center;
    color:white;
    margin:0;
  }
-  .parallax1 h3 {
+  section h3 {
     font-size: 25px;
     text-align:left;
     font-weight: 900;
