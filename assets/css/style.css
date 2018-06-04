@@ -1,4 +1,4 @@
-body , html {
+ body , html {
   height: 100%
 }
 .pic {
@@ -50,12 +50,21 @@ body , html {
     font-size: 50px;
   }
 }
+<<<<<<< HEAD
 
 
 
  section {
 
    background: linear-gradient(grey, lightblue);
+=======
+
+
+
+ section {
+
+   background: linear-gradient(black, lightblue);
+>>>>>>> f5480248c670619ae07c3666269fd43dacc42c9a
      background-attachment:fixed;
      background-position:center;
      background-repeat:no-repeat;
@@ -253,3 +262,4 @@ text-align: center;
            font-weight: 900;
            margin-top: 150px;
          }
+
