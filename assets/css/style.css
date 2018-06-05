@@ -50,21 +50,14 @@
     font-size: 50px;
   }
 }
-<<<<<<< HEAD
+
 
 
 
  section {
 
    background: linear-gradient(grey, lightblue);
-=======
 
-
-
- section {
-
-   background: linear-gradient(black, lightblue);
->>>>>>> f5480248c670619ae07c3666269fd43dacc42c9a
      background-attachment:fixed;
      background-position:center;
      background-repeat:no-repeat;
@@ -251,15 +244,25 @@ text-align: center;
            margin-bottom: 0;
          }
          .card {
-           height: 400px;
-           width:400px;
+           height: 370px;
+           width:370px;
            margin-left: 15px;
            margin-top: 25px;
+           -webkit-columns: 370px  3;
+           -moz-columns:370px 3;
+              columns: 370px 3;
          }
+         .column2{
+    list-style-position: inside;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    text-align: left;
+    font-size: 17px;
+  }
          .contact {
            color:white;
            font-size: 16px;
            font-weight: 900;
            margin-top: 150px;
          }
-
