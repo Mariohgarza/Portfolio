@@ -1,5 +1,5 @@
  body , html {
-  height: 100%
+  height: 100%;
 }
 .pic {
    background-image:url("../images/wallme.jpg");
@@ -189,6 +189,12 @@
      display: block;
      transition: 0.3s;
  }
+ @media screen and (max-width: 500px) {
+ .overlay a {
+
+   font-size:100px;
+   }
+ }
 
  .overlay a:hover, .overlay a:focus {
      color: #f1f1f1;
@@ -219,7 +225,8 @@ text-align: center;
 }
 @media screen and (max-width: 500px) {
 .menu1 {
-  font-size:30px;
+
+  font-size:35px;
   }
 }
 
@@ -269,29 +276,20 @@ text-align: center;
            margin-bottom: 0;
          }
           .card {
-           height: 370px;
-           width:370px;
+           height: 420px;
+           width:400px;
            margin-left: 15px;
            margin-top: 25px;
-           -webkit-columns: 370px  3;
-           -moz-columns:370px 3;
-              columns: 370px 3;
+           padding: 5px;
+           -webkit-columns: 400px  3;
+           -moz-columns:400px 3;
+              columns: 400px 3;
          }
          @media screen and (max-width: 500px) {
-         .row {
-           height: 270px;
-           width:270px;
-           /* margin-left: 15px;
-           margin-top: 25px; */
-           -webkit-columns: 270px  1;
-           -moz-columns:270px 1;
-              columns: 270px 1;
-
+         .row1 {
+              width: 100%;
            }
          }
-
-
-
          .column2{
     list-style-position: inside;
     -webkit-column-count: 3;
@@ -300,6 +298,7 @@ text-align: center;
     text-align: left;
     font-size: 17px;
   }
+
          .contact {
            color:white;
            font-size: 16px;
