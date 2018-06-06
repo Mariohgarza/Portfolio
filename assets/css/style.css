@@ -72,6 +72,14 @@
       background-repeat:no-repeat;
       background-size:cover;
   }
+  @media screen and (max-width: 500px) {
+  .parallax {
+    background:url("../images/newheader.jpg");
+      background-attachment:fixed;
+      background-size:contain;
+      padding-right: 0;
+    }
+  }
 
 
   .parallax h1 {
@@ -114,6 +122,7 @@
      margin:0;
      }
    }
+
     section h3 {
       font-size: 25px;
       text-align:left;
