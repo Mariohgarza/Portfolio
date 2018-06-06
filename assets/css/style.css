@@ -220,7 +220,6 @@ text-align: center;
 @media screen and (max-width: 500px) {
 .menu1 {
   font-size:30px;
-  margin-top: 200px;
   }
 }
 
@@ -278,6 +277,21 @@ text-align: center;
            -moz-columns:370px 3;
               columns: 370px 3;
          }
+         @media screen and (max-width: 500px) {
+         .row {
+           height: 270px;
+           width:270px;
+           /* margin-left: 15px;
+           margin-top: 25px; */
+           -webkit-columns: 270px  1;
+           -moz-columns:270px 1;
+              columns: 270px 1;
+
+           }
+         }
+
+
+
          .column2{
     list-style-position: inside;
     -webkit-column-count: 3;
