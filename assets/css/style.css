@@ -9,6 +9,17 @@
     background-size:cover;
     background-position: center;
   }
+    @media screen and (max-width: 500px) {
+      .pic {
+        background-image:url("../images/wallme.jpg");
+        border-radius: 200px;
+       width: 170px;
+       height: 170px;
+       background-size:cover;
+       background-position: center;
+
+      }
+    }
   .pic1 {
     background-image:url("../images/beachme.png");
     width: 300px;
@@ -19,6 +30,20 @@
     margin-left: 30px;
 
   }
+  @media screen and (max-width: 500px) {
+    .pic1 {
+      background-image:url("../images/beachme.png");
+      width: 150px;
+      height: 150px;
+      background-size:cover;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-left: 60px;
+      margin-bottom: 20px;
+
+    }
+  }
+
   .pics{
     border-radius: 50%;
     width: 130px!important;
@@ -47,6 +72,8 @@
       background-repeat:no-repeat;
       background-size:cover;
   }
+
+
   .parallax h1 {
     font-size: 100px;
     font-family:monospace;
@@ -78,6 +105,15 @@
      color:white;
      margin:0;
    }
+   @media screen and (max-width: 500px) {
+   section  h1 {
+     font-size: 25px;
+     font-family:monospace;
+     text-align: center;
+     color:white;
+     margin:0;
+     }
+   }
     section h3 {
       font-size: 25px;
       text-align:left;
@@ -86,6 +122,18 @@
       padding-left: 100px;
       margin: 0;
     }
+    @media screen and (max-width: 500px) {
+      section h3 {
+        font-size: 20px;
+        text-align:left;
+        font-weight: 900;
+         font-family:"Alegreya Sans SC";
+        padding-left: 50px;
+        margin: 0;
+
+      }
+    }
+
 
     .parallax2 {
       background-image:url("../images/header.jpg");
@@ -310,9 +358,20 @@
 
   }
 }
-           .contact {
+@media screen and (max-width: 500px) {
+.column {
+list-style-position: inside;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+padding-left: 0;
+font-size:14px;
+}
+}
+
+ .contact {
              color:white;
              font-size: 16px;
              font-weight: 900;
              margin-top: 150px;
-           }
+     }
