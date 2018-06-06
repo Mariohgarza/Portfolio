@@ -28,6 +28,17 @@
   margin-left: 30px;
   margin-bottom: 180px;
 }
+@media screen and (max-width: 500px) {
+.pics {
+  border-radius: 50%;
+  width: 70px!important;
+  height: 70px!important;
+  margin-top: 20px;
+  padding: 2px;
+  margin-left: 6px;
+  margin-bottom: 20px;
+  }
+}
 
 .parallax {
   background:url("../images/newheader.jpg");
@@ -132,9 +143,18 @@
 .carousel-inner > .item > a > img {
     width: 60%;
     margin: auto;
-    height:550px
+    height:500px;
 
 }
+
+@media screen and (max-width: 500px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: 150px;
+      margin: auto;
+}
+}
+
 
    .footer {
      background-color: grey;
@@ -196,6 +216,12 @@ text-align: center;
      -ms-transform: scale(2.0);
      -webkit-transform: scale(2.0);
      transform: scale(2.0);
+}
+@media screen and (max-width: 500px) {
+.menu1 {
+  font-size:30px;
+  margin-top: 200px;
+  }
 }
 
 .animated {
