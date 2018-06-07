@@ -267,6 +267,17 @@
       float:left;
       font-family:monospace;
    }
+   @media screen and (max-width: 500px) {
+   .menu {
+     font-size:60px;
+     cursor:pointer;
+      color:white;
+      float:left;
+      font-family:monospace;
+      position:static;
+
+   }
+   }
    .menu1 {
    cursor:pointer;
   text-align: center;
