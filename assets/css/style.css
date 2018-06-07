@@ -217,7 +217,7 @@
   @media screen and (max-width: 500px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
-        height: 150px;
+        height: 200px;
         margin: auto;
   }
   }
