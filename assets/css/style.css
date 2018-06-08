@@ -420,7 +420,7 @@ text-align: left;
      @media screen and (max-width: 500px) {
        .content-carrousel1 figure {
          width: 70%;
-         height:100px;
+         height:200px;
          border: 1px solid #4d444d;
          position: absolute;
        }
