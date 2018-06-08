@@ -1,11 +1,17 @@
 body , html {
  height: 100%;
 }
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
   #bigScreen {
   display: none;
 }
+} */
+ @media screen and (max-width: 500px){
+  #smScreen {
+  display: none;
 }
+} 
+
 
 .pic {
   background-image:url("../images/wallme.jpg");
